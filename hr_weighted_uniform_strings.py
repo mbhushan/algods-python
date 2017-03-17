@@ -10,7 +10,7 @@ https://www.hackerrank.com/challenges/weighted-uniform-string
 def factors(n):
     """
     Returns the factors of a number n
-    :param n:
+    :param: n
     :return: a list of factors
     """
     return set(reduce(list.__add__,
