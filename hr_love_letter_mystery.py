@@ -8,7 +8,8 @@ https://www.hackerrank.com/challenges/the-love-letter-mystery
 
 
 def main():
-    pass
+    T = int(raw_input().strip())
+    S = raw_input().strip()
 
 if __name__ == '__main__':
     main()
