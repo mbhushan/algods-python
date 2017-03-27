@@ -10,6 +10,14 @@ quyjjdcgsvvsgcdjjyq
 """
 
 
+def check_palindrome(S, i, j):
+    while i < j:
+        if S[i] != S[j]:
+            return False
+        i += 1
+        j -= 1
+    return True
+
 def main():
     T = int(raw_input().strip())
     for i in range(T):
@@ -19,12 +27,13 @@ def main():
         high = len(S) - 1
         while low <= high:
             if S[low] != S[high]:
-                index = high if S[low] == S[high-1] else low
+                index = low if check_palindrome(S, low+1, high) else high
                 break
             low += 1
             high -= 1
 
         print "{}".format(index)
+
 
 
 if __name__ == '__main__':
