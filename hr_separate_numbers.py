@@ -8,6 +8,7 @@ https://www.hackerrank.com/challenges/separate-the-numbers
 
 
 def separate_numbers(s):
+    print str(s)
     pass
 
 
