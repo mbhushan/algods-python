@@ -11,7 +11,6 @@ def separate_numbers(s):
     print str(s)
     pass
 
-
 def main():
     q = int(raw_input().strip())
     for a0 in xrange(q):
