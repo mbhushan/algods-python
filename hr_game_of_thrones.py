@@ -11,9 +11,9 @@ def main():
     found = False
 
     if not found:
-        print("NO")
+        print "NO"
     else:
-        print("YES")
+        print "YES"
 
 
 if __name__ == '__main__':
